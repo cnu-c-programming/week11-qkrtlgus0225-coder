@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 enum Color { RED, GREEN, BLUE };
+
 enum Status { OK = 0, ERR = -1, BUSY = 1 };
 
 int main(void) {
