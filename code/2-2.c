@@ -4,13 +4,13 @@ enum Color { RED, GREEN, BLUE };
 enum Status { OK = 0, ERR = -1, BUSY = 1 };
 
 int main(void) {
-    printf("RED     = %d\n", RED);
-    printf("GREEN   = %d\n", GREEN);
-    printf("BLUE    = %d\n\n", BLUE);
+    printf("RED\t= %d\n", RED);
+    printf("GREEN\t= %d\n", GREEN);
+    printf("BLUE\t= %d\n\n", BLUE);
     
-    printf("OK      = %d\n", OK);
-    printf("ERR     = %d\n", ERR);
-    printf("BUSY    = %d\n", BUSY);
+    printf("OK\t= %d\n", OK);
+    printf("ERR\t= %d\n", ERR);
+    printf("BUSY\t= %d\n", BUSY);
     
     return 0;
 }
